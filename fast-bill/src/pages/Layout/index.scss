@@ -1,0 +1,26 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    /* Prevents content from overflowing outside the layout */
+}
+
+.container {
+    flex: 1;
+    /* Takes up available space */
+    overflow-y: auto;
+    /* Allows the content to scroll */
+    margin-bottom: 50px;
+    /* Creates space for the footer */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    /* Specify the height of the footer */
+    background: #f8f8f8;
+    /* Example background color */
+}
